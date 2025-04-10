@@ -6,17 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFD3C14D2DA75F5E00036D36 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C14A2DA75F5E00036D36 /* AboutView.swift */; };
+		EFD3C14E2DA75F5E00036D36 /* FinanceDarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C14B2DA75F5E00036D36 /* FinanceDarkApp.swift */; };
+		EFD3C14F2DA75F5E00036D36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD3C1472DA75F5E00036D36 /* Preview Assets.xcassets */; };
+		EFD3C1502DA75F5E00036D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD3C1492DA75F5E00036D36 /* Assets.xcassets */; };
+		EFD3C1522DA761A000036D36 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C1512DA761A000036D36 /* ColorConstants.swift */; };
+		EFD3C1552DA76C1000036D36 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C1542DA76C0F00036D36 /* CreditCardView.swift */; };
+		EFD3C1572DA7773C00036D36 /* CreditCardPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C1562DA7773C00036D36 /* CreditCardPageView.swift */; };
+		EFD3C1592DA779A400036D36 /* YourCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C1582DA779A400036D36 /* YourCardsView.swift */; };
+		EFD3C15B2DA77DD300036D36 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C15A2DA77DD300036D36 /* TopView.swift */; };
+		EFD3C15F2DA780B300036D36 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C15E2DA780B300036D36 /* TransactionView.swift */; };
+		EFD3C1622DA7979400036D36 /* YourBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C1612DA7979400036D36 /* YourBalanceView.swift */; };
+		EFD3C1642DA7A74500036D36 /* FillBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3C1632DA7A74500036D36 /* FillBarView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFD3C1362DA75F5600036D36 /* FinanceDark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceDark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3C1472DA75F5E00036D36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFD3C1492DA75F5E00036D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFD3C14A2DA75F5E00036D36 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		EFD3C14B2DA75F5E00036D36 /* FinanceDarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDarkApp.swift; sourceTree = "<group>"; };
+		EFD3C1512DA761A000036D36 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		EFD3C1542DA76C0F00036D36 /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		EFD3C1562DA7773C00036D36 /* CreditCardPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardPageView.swift; sourceTree = "<group>"; };
+		EFD3C1582DA779A400036D36 /* YourCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCardsView.swift; sourceTree = "<group>"; };
+		EFD3C15A2DA77DD300036D36 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		EFD3C15E2DA780B300036D36 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		EFD3C1612DA7979400036D36 /* YourBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourBalanceView.swift; sourceTree = "<group>"; };
+		EFD3C1632DA7A74500036D36 /* FillBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFD3C1382DA75F5600036D36 /* FinanceDark */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinanceDark;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFD3C1332DA75F5600036D36 /* Frameworks */ = {
@@ -32,7 +51,7 @@
 		EFD3C12D2DA75F5600036D36 = {
 			isa = PBXGroup;
 			children = (
-				EFD3C1382DA75F5600036D36 /* FinanceDark */,
+				EFD3C14C2DA75F5E00036D36 /* FinanceDark */,
 				EFD3C1372DA75F5600036D36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +62,65 @@
 				EFD3C1362DA75F5600036D36 /* FinanceDark.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD3C1482DA75F5E00036D36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3C1472DA75F5E00036D36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFD3C14C2DA75F5E00036D36 /* FinanceDark */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3C1512DA761A000036D36 /* ColorConstants.swift */,
+				EFD3C1532DA76BF900036D36 /* View */,
+				EFD3C14B2DA75F5E00036D36 /* FinanceDarkApp.swift */,
+				EFD3C1492DA75F5E00036D36 /* Assets.xcassets */,
+				EFD3C1482DA75F5E00036D36 /* Preview Content */,
+			);
+			path = FinanceDark;
+			sourceTree = "<group>";
+		};
+		EFD3C1532DA76BF900036D36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3C1602DA7978100036D36 /* Balance */,
+				EFD3C15C2DA7807000036D36 /* About */,
+				EFD3C15D2DA7808600036D36 /* CreditCard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFD3C15C2DA7807000036D36 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3C14A2DA75F5E00036D36 /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		EFD3C15D2DA7808600036D36 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3C1542DA76C0F00036D36 /* CreditCardView.swift */,
+				EFD3C1562DA7773C00036D36 /* CreditCardPageView.swift */,
+				EFD3C1582DA779A400036D36 /* YourCardsView.swift */,
+				EFD3C15A2DA77DD300036D36 /* TopView.swift */,
+				EFD3C15E2DA780B300036D36 /* TransactionView.swift */,
+			);
+			path = CreditCard;
+			sourceTree = "<group>";
+		};
+		EFD3C1602DA7978100036D36 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3C1612DA7979400036D36 /* YourBalanceView.swift */,
+				EFD3C1632DA7A74500036D36 /* FillBarView.swift */,
+			);
+			path = Balance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +137,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFD3C1382DA75F5600036D36 /* FinanceDark */,
 			);
 			name = FinanceDark;
 			packageProductDependencies = (
@@ -109,6 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD3C14F2DA75F5E00036D36 /* Preview Assets.xcassets in Resources */,
+				EFD3C1502DA75F5E00036D36 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD3C15B2DA77DD300036D36 /* TopView.swift in Sources */,
+				EFD3C15F2DA780B300036D36 /* TransactionView.swift in Sources */,
+				EFD3C1522DA761A000036D36 /* ColorConstants.swift in Sources */,
+				EFD3C1622DA7979400036D36 /* YourBalanceView.swift in Sources */,
+				EFD3C1572DA7773C00036D36 /* CreditCardPageView.swift in Sources */,
+				EFD3C14D2DA75F5E00036D36 /* AboutView.swift in Sources */,
+				EFD3C1592DA779A400036D36 /* YourCardsView.swift in Sources */,
+				EFD3C14E2DA75F5E00036D36 /* FinanceDarkApp.swift in Sources */,
+				EFD3C1552DA76C1000036D36 /* CreditCardView.swift in Sources */,
+				EFD3C1642DA7A74500036D36 /* FillBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
